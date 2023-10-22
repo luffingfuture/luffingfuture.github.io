@@ -1,2 +1,3 @@
-	name: Luffing Future LLC
-	markdown: kramdown
+name: Luffing Future LLC
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
