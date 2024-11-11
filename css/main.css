@@ -27,3 +27,14 @@ ul.posts li { list-style: none; }
 .cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 .cv address, .cv p { font-size: 1.2em; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
+
+/* Example media query for mobile */
+@media only screen and (max-width: 600px) {
+    /* Adjust navigation and font sizes */
+    .navbar { font-size: 14px; }
+    .content { padding: 10px; font-size: 16px; }
+    /* Full width for buttons */
+    .button { width: 100%; }
+}
+
+img { max-width: 100%; height: auto; }
