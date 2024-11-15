@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+}
+
+header {
+    background-color: #193559;
+    color: white;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.navbar nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url(images/bp.jpg); /* Replace with actual background image path */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    color: rgb(92, 90, 90);
+    position: relative;
+}
+
+.hero-content {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #193559;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.info-sections {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.section {
+    text-align: center;
+    width: 30%;
+}
+
+.section h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.section button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #193559;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.clients {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.clients h3 {
+    font-size: 24px;
+    color: #193559;
+    margin-bottom: 20px;
+}
+
+.client-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.client-logos img {
+    max-width: 100px;
+    max-height: 50px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.client-logos img:hover {
+    opacity: 1;
+}
