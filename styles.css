@@ -128,3 +128,12 @@ header {
 .client-logos img:hover {
     opacity: 1;
 }
+
+.client-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* This allows the logos to wrap onto new lines */
+    gap: 20px;
+    padding: 20px;
+}
