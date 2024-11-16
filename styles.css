@@ -137,3 +137,14 @@ header {
     gap: 20px;
     padding: 20px;
 }
+
+.icon-linkedin {
+    color: #f9f9f9; /* LinkedIn blue */
+    font-size: 24px; /* Adjust size */
+    margin-right: 8px; /* Adjust spacing */
+    transition: color 0.3s;
+}
+
+.icon-linkedin:hover {
+    color: #aeaeae; /* Darker blue on hover */
+}
